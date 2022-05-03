@@ -1,1 +1,1 @@
-# algorithm_problems
+# My (or not) solutions to algorithmic problems
