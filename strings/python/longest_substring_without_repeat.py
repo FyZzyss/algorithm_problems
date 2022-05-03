@@ -2,6 +2,7 @@ from typing import Optional
 
 
 def longest_substring(s: Optional[str]) -> Optional[str]:
+    """https://leetcode.com/problems/longest-substring-without-repeating-characters/"""
     if not s:
         return None
     visited = {}

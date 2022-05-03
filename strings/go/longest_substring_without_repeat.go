@@ -6,6 +6,7 @@ import (
 )
 
 func longestSubstringWithoutRepeat(s string) (res string) {
+	// https://leetcode.com/problems/longest-substring-without-repeating-characters/
 	if s == "" {
 		return res
 	}

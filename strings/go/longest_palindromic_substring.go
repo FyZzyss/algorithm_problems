@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func longestSubstring(s string) (res string) {
+    // https://leetcode.com/problems/longest-palindromic-substring/
 	if s == "" {
 		return res
 	}
