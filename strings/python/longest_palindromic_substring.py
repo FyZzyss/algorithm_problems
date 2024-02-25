@@ -31,7 +31,7 @@ def longest_substring_manacher(s: str) -> str:
     start = 0
     max_str = s[0]
     max_len = 1
-    s = '#' + '#'.join(s) + '#'
+    s = f'#{"#".join(s)}#'
     dp = [0] * len(s)
     center = radius = 0
     for i in range(len(s)):
